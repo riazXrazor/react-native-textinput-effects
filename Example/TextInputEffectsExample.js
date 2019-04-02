@@ -15,6 +15,7 @@ import {
   Makiko,
   Sae,
   Fumi,
+  Autorain
 } from 'react-native-textinput-effects';
 
 export default class TextInputEffectsExample extends Component {
@@ -126,6 +127,20 @@ export default class TextInputEffectsExample extends Component {
             labelStyle={{ color: '#ac83c4' }}
           />
         </View>
+        {/* <View style={[styles.card2, { backgroundColor: '#f9f3cf' }]}>
+          <Text style={styles.title}>Akira</Text>
+          <Autorain
+            label={'First Name'}
+            borderColor={'#a5d1cc'}
+            labelStyle={{ color: '#ac83c4' }}
+          />
+          <Autorain
+            style={styles.input}
+            label={'Maiden Name'}
+            borderColor={'#a5d1cc'}
+            labelStyle={{ color: '#ac83c4' }}
+          />
+        </View> */}
         <View style={styles.card2}>
           <Text style={styles.title}>Madoka</Text>
           <Madoka
